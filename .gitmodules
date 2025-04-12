@@ -1,3 +1,6 @@
 [submodule "ros2_ws/src/crazyswarm2"]
 	path = ros2_ws/src/crazyswarm2
 	url = git@github.com:ROB-530/crazyswarm2.git
+[submodule "CrazySim"]
+	path = CrazySim
+	url = git@github.com:ROB-530/CrazySim.git
