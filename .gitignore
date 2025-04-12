@@ -1,0 +1,11 @@
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+*.egg-info/
+venv/
