@@ -1,15 +1,14 @@
 # ALPHAS: Autonomous Layered Positioning for Hierarchical Agents in Swarms
 
-Reliable and accurate localization is paramount for au-
-tonomous drone swarms. However, in challenging scenarios,
-GPS signals can become weak or entirely blocked by en-
-vironmental features such as dense forests, mountains, or
-urban canyons formed by high buildings. The density of the
-swarm itself might also contribute to signal degradation in cer-
-tain configurations. Furthermore, relying solely on traditional
-odometry-based techniques often leads to accumulated drift,
-compromising long-term accuracy without external corrections
-like loop closure or global fixes.
+Reliable and accurate localization is paramount for autonomous
+drone swarms. However, in challenging scenarios, GPS signals
+can become weak or entirely blocked by environmental features
+such as dense forests, mountains, or urban canyons formed by high
+buildings. The density of the swarm itself might also contribute
+to signal degradation in certain configurations. Furthermore,
+relying solely on traditional odometry-based techniques often
+leads to accumulated drift, compromising long-term accuracy without
+external corrections like loop closure or global fixes.
 
 To overcome these challenges, we propose a cooperative,
 tiered localization strategy for heterogeneous drone swarms.
@@ -18,10 +17,10 @@ types: Alpha drones, equipped with high-precision global
 localization sensors acting as mobile anchors, and Beta drones,
 which estimate their positions using onboard sensors and
 relative measurements to nearby agents. This approach aims to
-achieve robust, swarm-wide localization by leveraging inter-
-agent communication and relative information, thereby en-
-hancing resilience to sensor noise and environmental uncer-
-tainty while potentially reducing the need for expensive global
+achieve robust, swarm-wide localization by leveraging inter-agent
+communication and relative information, thereby enhancing
+resilience to sensor noise and environmental uncertainty
+while potentially reducing the need for expensive global
 positioning hardware on every agent.
 
 # Setup
